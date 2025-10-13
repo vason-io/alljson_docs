@@ -4,12 +4,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 export default {
-  title: 'Vason',
+  title: 'Alljson',
   tagline: 'Visualize & Analyze JSON',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://docs.vason.io',
+  url: 'https://docs.alljson.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -48,9 +48,9 @@ export default {
 
   themeConfig: {
     navbar: {
-      title: 'Vason',
+      title: 'Alljson',
       logo: {
-        alt: 'Vason logo',
+        alt: 'Alljson logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -67,15 +67,15 @@ export default {
           label: 'Support',
         },
         {
-          href: 'https://vason.io',
-          label: 'Open Vason.io',
+          href: 'https://alljson.com',
+          label: 'Open alljson.com',
           position: 'right',
         },
       ],
     },
     footer: {
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Vason.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Alljson.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -7,23 +7,23 @@ description: ''
 
 ### Introduction
 
-This Refund Policy applies to all users ("you" or "User") of Vason ("the Service") provided by Vason ("we," "us," or "
-Vason"). By using the Service, you agree to comply with and be bound by this Refund Policy.
+This Refund Policy applies to all users ("you" or "User") of Alljson ("the Service") provided by Alljson ("we," "us," or "
+Alljson"). By using the Service, you agree to comply with and be bound by this Refund Policy.
 
 ### Refund Eligibility
 
 Refunds for subscription fees or charges incurred while using the Service will be considered in accordance with this
 policy. You are eligible for a refund under the following circumstances:
 
-- Vason fails to meet the obligations explicitly stated in its Terms of Service.
-- You experience technical issues directly caused by Vason that prevent you from using the Service as intended.
+- Alljson fails to meet the obligations explicitly stated in its Terms of Service.
+- You experience technical issues directly caused by Alljson that prevent you from using the Service as intended.
 
 ### Requesting a Refund
 
-To request a refund, you must contact Vason's customer support within 14 days of the incident or situation that
+To request a refund, you must contact Alljson's customer support within 14 days of the incident or situation that
 qualifies you for a refund. You can reach our customer support team by means specified in the [Contact](contact.md)
 page. Please provide detailed information about the issue, including relevant account details such as email address and
-evidence of Vason's failure to meet its obligations.
+evidence of Alljson's failure to meet its obligations.
 
 ### Refund Process
 
@@ -37,15 +37,15 @@ period. Any non-prorated fees or charges, such as third-party transaction fees, 
 
 ### Non-Refundable Situations
 
-Vason reserves the right to deny refund requests in the following situations:
+Alljson reserves the right to deny refund requests in the following situations:
 
 - Your use of the Service violates our Terms of Service or any applicable laws.
-- Technical issues or disruptions are caused by factors beyond Vason's control, such as internet connectivity issues,
+- Technical issues or disruptions are caused by factors beyond Alljson's control, such as internet connectivity issues,
   third-party services, or user equipment.
 
 ### Changes to the Refund Policy
 
-Vason reserves the right to update or modify this Refund Policy at any time. Any changes will be effective upon posting
+Alljson reserves the right to update or modify this Refund Policy at any time. Any changes will be effective upon posting
 to the Service. Your continued use of the Service after the posting of changes constitutes your acceptance of the
 modified Refund Policy.
 

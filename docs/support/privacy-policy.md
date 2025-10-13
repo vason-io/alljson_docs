@@ -7,13 +7,13 @@ description: ''
 
 ### Introduction
 
-This Privacy Policy explains how Vason ("we," "us," or "Vason") collects, uses, and protects the personal information
-and data of users ("you" or "User") of the Vason SaaS platform ("the Service"). By using the Service, you agree to
+This Privacy Policy explains how Alljson ("we," "us," or "Alljson") collects, uses, and protects the personal information
+and data of users ("you" or "User") of the Alljson SaaS platform ("the Service"). By using the Service, you agree to
 comply with and be bound by this Privacy Policy.
 
 ### Information We Do Not Collect
 
-Vason does not collect, store, inspect, analyze, or in any way trade data that passes through Vason's
+Alljson does not collect, store, inspect, analyze, or in any way trade data that passes through Alljson's
 Cross-Origin Resource Sharing (CORS) proxy service. We do not retain any user-generated content or personally
 identifiable information beyond what is necessary for the basic operation of the Service.
 
@@ -35,17 +35,17 @@ Service. We do not use this information to identify individual users or for any 
 
 ### Third-Party Services
 
-Vason may use third-party services or tools to analyze non-personal usage data, improve user experience, and optimize
+Alljson may use third-party services or tools to analyze non-personal usage data, improve user experience, and optimize
 the Service. These third-party services are governed by their own privacy policies.
 
 ### Data Security
 
-Vason takes reasonable measures to protect the limited information we collect from unauthorized access, disclosure,
+Alljson takes reasonable measures to protect the limited information we collect from unauthorized access, disclosure,
 alteration, or destruction.
 
 ### Changes to the Privacy Policy
 
-Vason reserves the right to update or modify this Privacy Policy at any time. Any changes will be effective upon posting
+Alljson reserves the right to update or modify this Privacy Policy at any time. Any changes will be effective upon posting
 to the Service. Your continued use of the Service after the posting of changes constitutes your acceptance of the
 modified Privacy Policy.
 

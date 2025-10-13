@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.vason.io/sitemap.xml
+Sitemap: https://docs.alljson.com/sitemap.xml
