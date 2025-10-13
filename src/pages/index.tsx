@@ -15,9 +15,7 @@ function HomepageHeader(): ReactElement {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className="row">
-          <div
-            className={clsx('col col--4 padding-vert--md', styles.bannerText)}
-          >
+          <div className={clsx('col col--4 padding-vert--md', styles.bannerText)}>
             <h1 className="hero__title" style={{ color: 'white' }}>
               {siteConfig.title}
             </h1>
