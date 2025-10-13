@@ -5,4 +5,4 @@ description: ''
 
 # Support
 
-Welcome to Vason support. Here you can find various support resources.
+Welcome to Alljson support. Here you can find various support resources.

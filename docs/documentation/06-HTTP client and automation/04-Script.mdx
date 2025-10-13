@@ -2,15 +2,15 @@
 
 You can automate your processes, such as executing HTTP requests using loops and conditions.
 
-E.g., retrieve JSON from APIs, modify it using `Vason query system` and transmit it to the cloud.
+E.g., retrieve JSON from APIs, modify it using `Alljson query system` and transmit it to the cloud.
 
 The automation script is just simple javascript program, which you are writing by yourself.
 
 You can debug your script by placing the `debugger` keyword somewhere in the script, and opening a browser's development tool.
 
-## Vason API
+## Alljson API
 
-Additionally, there are non-blocking Vason API functions available for sequential execution mode, ensuring operation without blocking the GUI:
+Additionally, there are non-blocking Alljson API functions available for sequential execution mode, ensuring operation without blocking the GUI:
 
 ### Service functions and variables
 
@@ -135,7 +135,7 @@ Functions for interacting with editors in the right and left panels
 ## Example script
 
 ```js showLineNumbers
-// There are non-blocking Vason API functions
+// There are non-blocking Alljson API functions
 // available for sequential execution mode,
 // ensuring operation without blocking the GUI
 // Click help button to see the complete documentation
@@ -166,7 +166,7 @@ VARS.token = REQ('example receive access token').token;
 // pause 1 sec
 SLEEP(1000);
 
-// write to Vason console
+// write to Alljson console
 CONSOLE('authorization token received: ' + VARS.token);
 
 /* -------------- example: request and loop -------------- */

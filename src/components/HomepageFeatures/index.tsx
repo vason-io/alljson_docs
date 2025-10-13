@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Visualize',
     description: (
       <>
-        Vason efficiently displays JSON documents in user-friendly formats,
+        Alljson efficiently displays JSON documents in user-friendly formats,
         simplifying data visualization and interpretation.
       </>
     ),
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Analyze',
     description: (
       <>
-        Vason offers a built-in query system that allows you to thoroughly
+        Alljson offers a built-in query system that allows you to thoroughly
         analyze JSON documents. This feature empowers users to extract insights
         and explore data effectively, enhancing the accuracy of data analysis.
       </>
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     title: 'Transform',
     description: (
       <>
-        Vason offers a comprehensive solution by allowing users to both
+        Alljson offers a comprehensive solution by allowing users to both
         transform JSON documents using its built-in system and convert them into
         different formats, enhancing data adaptability.
       </>

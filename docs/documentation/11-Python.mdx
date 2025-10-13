@@ -1,14 +1,14 @@
 # Python
 
-[Analyze JSON data using Python (https://vason.io/open-python)](https://vason.io/open-python)
+[Analyze JSON data using Python (https://alljson.com/open-python)](https://alljson.com/open-python)
 
-Vason allows you to analyze the JSON content using Python language.
+Alljson allows you to analyze the JSON content using Python language.
 
 ### Example: user interface and Jsonata query
 
 ```python
 import pyjsonata
-from vason import LEFT_EDITOR_TO_STRING
+from alljson import LEFT_EDITOR_TO_STRING
 
 # printing to the console
 print('Get planet name by index')
@@ -28,7 +28,7 @@ import requests
 import pyjsonata
 
 # HTTP request
-x = requests.get('https://vason.io/examples/exampleGetPlanets')
+x = requests.get('https://alljson.com/examples/exampleGetPlanets')
 # analyzing by using pyjsonata library
 planet_names = pyjsonata.jsonata("""
     **.planets[[0..8]].name[]
@@ -38,33 +38,33 @@ planet_names
 # output: array of planets
 ```
 
-### Vason API
+### Alljson API
 
-Additionally, there are non-blocking Vason API functions available for sequential execution mode, ensuring operation without blocking the GUI:
+Additionally, there are non-blocking Alljson API functions available for sequential execution mode, ensuring operation without blocking the GUI:
 
 import { Func, Param } from '@site/src/components/Script';
 
-- <Func>import vason</Func> or <Func>from vason import **FUNCTION**</Func> - to use
-  the Vason API, you need to import the vason module.
-- <Func>vason.CLEAR_CONSOLE</Func>() - clear console
-- <Func>vason.CONSOLE</Func>(<Param>text or object</Param>) - print text or
+- <Func>import alljson</Func> or <Func>from alljson import **FUNCTION**</Func> - to use
+  the Alljson API, you need to import the alljson module.
+- <Func>alljson.CLEAR_CONSOLE</Func>() - clear console
+- <Func>alljson.CONSOLE</Func>(<Param>text or object</Param>) - print text or
   object on console box
-- <Func>vason.ERROR</Func>(<Param>error message</Param>) - print error message
+- <Func>alljson.ERROR</Func>(<Param>error message</Param>) - print error message
   on console box
-- <Func>vason.LEFT_EDITOR_TO_STRING</Func>() - return text from the left editor
-- <Func>vason.RIGHT_EDITOR_TO_STRING</Func>() - return text from the right
+- <Func>alljson.LEFT_EDITOR_TO_STRING</Func>() - return text from the left editor
+- <Func>alljson.RIGHT_EDITOR_TO_STRING</Func>() - return text from the right
   editor
-- <Func>vason.STRING_TO_LEFT_EDITOR</Func>(<Param>text</Param>) - write text to
+- <Func>alljson.STRING_TO_LEFT_EDITOR</Func>(<Param>text</Param>) - write text to
   the left editor
-- <Func>vason.STRING_TO_RIGHT_EDITOR</Func>(<Param>text</Param>) - write text to
+- <Func>alljson.STRING_TO_RIGHT_EDITOR</Func>(<Param>text</Param>) - write text to
   the right editor
-- <Func>vason.SET_CURRENT_THEME</Func>(<Param>"light"|"dark"</Param>) - change
+- <Func>alljson.SET_CURRENT_THEME</Func>(<Param>"light"|"dark"</Param>) - change
   current user interface theme
-- <Func>vason.GET_CURRENT_THEME</Func>() - get current user interface theme
+- <Func>alljson.GET_CURRENT_THEME</Func>() - get current user interface theme
   name. Return: "light" or "dark"
-- <Func>vason.CLEAR_OUTPUT</Func>() - clear python output: output box with the
+- <Func>alljson.CLEAR_OUTPUT</Func>() - clear python output: output box with the
   DOM element ID = GET_OUTPUT_HTML_ELEMENT_ID()
-- <Func>vason.DISPLAY_IN_OUTPUT</Func>(<Param>*values</Param>, <Param>
+- <Func>alljson.DISPLAY_IN_OUTPUT</Func>(<Param>*values</Param>, <Param>
     target=None
   </Param>, <Param>append=True</Param>) - This function is capable of
   introspecting the python object(s) it receives, determining the correct method
@@ -74,13 +74,13 @@ import { Func, Param } from '@site/src/components/Script';
   - target - the DOM element where the content should be placed; by default, it's the output box with the DOM element ID = GET_OUTPUT_HTML_ELEMENT_ID()
   - append - a flag indicating whether the output will be appended to the target
 
-- <Func>vason.GET_OUTPUT_HTML_ELEMENT_ID</Func>() - retrieve the ID of the
+- <Func>alljson.GET_OUTPUT_HTML_ELEMENT_ID</Func>() - retrieve the ID of the
   output DOM element to interact with the user interface using the JavaScript
   API in Python. See example below:
 
 ```python
 from js import document
-from vason import GET_OUTPUT_HTML_ELEMENT_ID
+from alljson import GET_OUTPUT_HTML_ELEMENT_ID
 
 # get HTML element
 outputElement = document.getElementById(GET_OUTPUT_HTML_ELEMENT_ID())
@@ -88,7 +88,7 @@ outputElement = document.getElementById(GET_OUTPUT_HTML_ELEMENT_ID())
 outputElement.innerHTML = 'Test output text'
 ```
 
-- <Func>vason.INSTALL_PYTHON_MODULES</Func>(<Param>list or item</Param>) -
+- <Func>alljson.INSTALL_PYTHON_MODULES</Func>(<Param>list or item</Param>) -
   explicit install external python modules
 
   - "module_name" or "module_name==version";
@@ -97,19 +97,19 @@ outputElement.innerHTML = 'Test output text'
     single-file format that can be downloaded and installed without the need to compile the package from source code. See example below:
 
 ```python
-from vason import INSTALL_PYTHON_MODULES
+from alljson import INSTALL_PYTHON_MODULES
 INSTALL_PYTHON_MODULES([
     'https://cdn.holoviz.org/panel/1.4.1/dist/wheels/bokeh-3.4.0-py3-none-any.whl',
     'https://cdn.holoviz.org/panel/1.4.1/dist/wheels/panel-1.4.1-py3-none-any.whl'
 ])
 ```
 
-- <Func>vason.LOAD_SCRIPTS_OR_STYLES</Func>(<Param>list or item</Param>) -
+- <Func>alljson.LOAD_SCRIPTS_OR_STYLES</Func>(<Param>list or item</Param>) -
   Loading scripts or styles from external sources, or executing a script from
   text. See examples below:
 
 ```python
-from vason import LOAD_SCRIPTS_OR_STYLES
+from alljson import LOAD_SCRIPTS_OR_STYLES
 LOAD_SCRIPTS_OR_STYLES('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')
 LOAD_SCRIPTS_OR_STYLES([
     'https://cdn.bokeh.org/bokeh/release/bokeh-3.2.2.min.js',
