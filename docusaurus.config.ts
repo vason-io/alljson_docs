@@ -9,7 +9,7 @@ export default {
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://alljson.com',
+  url: 'https://docs.alljson.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -48,12 +48,17 @@ export default {
 
   themeConfig: {
     navbar: {
-      title: 'Alljson',
       logo: {
         alt: 'Alljson logo',
         src: 'img/logo.svg',
       },
       items: [
+        {
+          href: 'https://alljson.com',
+          sidebarId: 'home_alljson',
+          position: 'left',
+          label: 'Home',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'documentation',
