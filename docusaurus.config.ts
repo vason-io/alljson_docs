@@ -6,7 +6,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 export default {
   title: 'Alljson',
   tagline: 'Visualize & Analyze JSON',
-  favicon: 'img/logo.svg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.alljson.com',
