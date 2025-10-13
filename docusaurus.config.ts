@@ -51,13 +51,16 @@ export default {
       logo: {
         alt: 'Alljson logo',
         src: 'img/logo.svg',
+        href: 'https://alljson.com',
+        target: '_self',
       },
       items: [
         {
           href: 'https://alljson.com',
           sidebarId: 'home_alljson',
           position: 'left',
-          label: 'Home',
+          label: 'Open Alljson',
+          target: '_self',
         },
         {
           type: 'docSidebar',
@@ -75,7 +78,7 @@ export default {
           href: 'https://vason.io',
           sidebarId: 'home_alljson',
           position: 'right',
-          label: 'Developped by Vason',
+          label: 'Developed by Vason',
         }
       ],
     },
