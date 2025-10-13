@@ -9,7 +9,7 @@ export default {
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://docs.alljson.com',
+  url: 'https://alljson.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -67,15 +67,16 @@ export default {
           label: 'Support',
         },
         {
-          href: 'https://alljson.com',
-          label: 'Open alljson.com',
+          href: 'https://vason.io',
+          sidebarId: 'home_alljson',
           position: 'right',
-        },
+          label: 'Developped by Vason',
+        }
       ],
     },
     footer: {
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Alljson.`,
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Alljson.`,
     },
     prism: {
       theme: prismThemes.github,
