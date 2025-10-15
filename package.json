@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.4.0",
+    "@docusaurus/plugin-google-gtag": "^3.9.1",
     "@docusaurus/preset-classic": "^3.4.0",
     "@docusaurus/theme-classic": "^3.4.0",
     "@docusaurus/theme-common": "^3.4.0",
@@ -43,7 +44,7 @@
     "@docusaurus/types": "^3.4.0",
     "@tsconfig/docusaurus": "^2.0.2",
     "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^16.2.4",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
   },
