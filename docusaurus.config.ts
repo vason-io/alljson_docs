@@ -64,7 +64,7 @@ export default {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'documentation',
+          sidebarId: 'guide',
           position: 'left',
           label: 'Documentation',
         },
@@ -106,5 +106,15 @@ export default {
       respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
-  plugins: ['./src/plugins/themed-zoom/index.ts'],
+  plugins: [
+    './src/plugins/themed-zoom/index.ts',
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-GQQPHF9PX4',
+        anonymizeIP: true,
+      },
+    ],
+],
+
 } satisfies Config;

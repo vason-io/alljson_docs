@@ -1,4 +1,4 @@
-# Alljson documentation
+# Alljson guide
 
 Available at https://docs.alljson.com
 
@@ -40,5 +40,5 @@ generator.
 
 ## License
 
-This documentation is licensed under the MIT license, terms of which can be found in
+This guide is licensed under the MIT license, terms of which can be found in
 the [LICENSE](LICENSE) file.
