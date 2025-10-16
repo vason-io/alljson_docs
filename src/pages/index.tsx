@@ -24,7 +24,7 @@ function HomepageHeader(): ReactElement {
             </p>
             <Link
               className="button button--secondary button--lg"
-              to="/guide/Intro"
+              to="/guide/intro"
             >
               Get Started
             </Link>
