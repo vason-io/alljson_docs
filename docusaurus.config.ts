@@ -1,4 +1,3 @@
-// See: https://docusaurus.io/docs/api/docusaurus-config
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
@@ -8,21 +7,21 @@ export default {
   tagline: 'Visualize & Analyze JSON',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://alljson.com',
   baseUrl: '/docs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vason-io', // Usually your GitHub org/username.
-  projectName: 'vason-io', // Usually your repo name.
+  organizationName: 'vason-io',
+  projectName: 'vason-io',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // новая настройка для битых markdown ссылок
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // или 'throw'
+    },
+  },
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -34,7 +33,7 @@ export default {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
+          routeBasePath: '/', // под /docs/ из baseUrl
         },
         blog: false,
         theme: {
@@ -77,7 +76,7 @@ export default {
           sidebarId: 'home_alljson',
           position: 'right',
           label: 'Developed by Vason',
-        }
+        },
       ],
     },
     footer: {
@@ -91,11 +90,10 @@ export default {
     zoom: {
       selector: 'img',
       config: {
-        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
         margin: 70,
         scrollOffset: 300,
-        container: '', // '#__docusaurus', //'[class*=docRoot_]',
-        template: '', //'#zoom-template',
+        container: '',
+        template: '',
       },
     },
     colorMode: {
@@ -104,6 +102,7 @@ export default {
       respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
+
   plugins: [
     './src/plugins/themed-zoom/index.ts',
     [
@@ -113,6 +112,5 @@ export default {
         anonymizeIP: true,
       },
     ],
-],
-
+  ],
 } satisfies Config;

@@ -7,7 +7,7 @@ description: ''
 
 You may reach us via the following channels:
 
-- Email: [`info@alljson.com`](mailto:info@alljson.com)
+- Email: [`info@vason.io`](mailto:info@vason.io)
 
 ### Legal notice
 
