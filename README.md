@@ -1,6 +1,6 @@
 # Alljson guide
 
-Available at https://docs.alljson.com
+Available at https://alljson.com/docs
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website
 generator.
