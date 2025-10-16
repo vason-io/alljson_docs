@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-description: ''
+title: Terms of Service
+description: "Terms of Service. If you do not agree with these Terms, please do not use the Service"
 ---
 
 # Terms of Service
