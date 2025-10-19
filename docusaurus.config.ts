@@ -7,6 +7,8 @@ export default {
   tagline: 'Visualize & Analyze JSON',
   favicon: 'img/favicon.ico',
 
+  trailingSlash: true,
+
   url: 'https://alljson.com',
   baseUrl: '/docs/',
 
