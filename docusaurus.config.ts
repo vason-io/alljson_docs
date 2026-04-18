@@ -10,7 +10,7 @@ export default {
   trailingSlash: true,
 
   url: 'https://json.vason.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
 
   organizationName: 'vason-io',
   projectName: 'vason-io',
