@@ -9,7 +9,9 @@ export default {
 
   trailingSlash: true,
 
-  url: 'https://json.vason.io',
+  url: 'https://docs.vason.io',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   organizationName: 'vason-io',
