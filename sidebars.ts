@@ -7,18 +7,19 @@ export default {
       label: 'Visualization',
       link: {
         type: 'generated-index',
-        description: 'On Alljson the content can be queried with these features',
+        description:
+          'On Alljson the content can be queried with these features',
       },
       items: [
-        'guide/visualization/text-representation-of-json',
-        'guide/visualization/compare-panels-view',
-        'guide/visualization/tree-view-in-vertical-or-compact-form',
-        'guide/visualization/tree-view-in-horizontal-form',
-        'guide/visualization/arc-diagram-view',
-        'guide/visualization/table-view',
-        'guide/visualization/3d-view',
-        'guide/visualization/editor-view',
-        'guide/visualization/format-view',
+        'guide/Visualization/text-representation-of-json',
+        'guide/Visualization/compare-panels-view',
+        'guide/Visualization/tree-view-in-vertical-or-compact-form',
+        'guide/Visualization/tree-view-in-horizontal-form',
+        'guide/Visualization/arc-diagram-view',
+        'guide/Visualization/table-view',
+        'guide/Visualization/3d-view',
+        'guide/Visualization/editor-view',
+        'guide/Visualization/format-view',
       ],
     },
     {
@@ -41,7 +42,8 @@ export default {
       label: 'HTTP Client and Automation',
       link: {
         type: 'generated-index',
-        description: 'Automate JSON requests and processing using HTTP clients.',
+        description:
+          'Automate JSON requests and processing using HTTP clients.',
       },
       items: [
         'guide/http-client-and-automation/intro-http-client',
