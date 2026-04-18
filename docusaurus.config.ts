@@ -9,7 +9,7 @@ export default {
 
   trailingSlash: true,
 
-  url: 'https://alljson.com',
+  url: 'https://json.vason.io',
   baseUrl: '/docs/',
 
   organizationName: 'vason-io',
@@ -50,12 +50,12 @@ export default {
       logo: {
         alt: 'Alljson logo',
         src: 'img/logo.svg',
-        href: 'https://alljson.com',
+        href: 'https://json.vason.io',
         target: '_self',
       },
       items: [
         {
-          href: 'https://alljson.com',
+          href: 'https://json.vason.io',
           sidebarId: 'home_alljson',
           position: 'left',
           label: 'Open Alljson',
