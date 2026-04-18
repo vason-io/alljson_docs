@@ -2,12 +2,12 @@
 id: python
 slug: python
 title: Analyze JSON data using Python
-description: "Alljson allows you to analyze the JSON content using Python language"
+description: 'Alljson allows you to analyze the JSON content using Python language'
 ---
 
 # Python
 
-[Analyze JSON data using Python (https://alljson.com/open-python)](https://alljson.com/open-python)
+[Analyze JSON data using Python (https://json.vason.io/open-python)](https://json.vason.io/open-python)
 
 Alljson allows you to analyze the JSON content using Python language.
 
@@ -35,7 +35,7 @@ import requests
 import pyjsonata
 
 # HTTP request
-x = requests.get('https://alljson.com/examples/exampleGetPlanets')
+x = requests.get('https://json.vason.io/examples/exampleGetPlanets')
 # analyzing by using pyjsonata library
 planet_names = pyjsonata.jsonata("""
     **.planets[[0..8]].name[]
@@ -51,20 +51,21 @@ Additionally, there are non-blocking Alljson API functions available for sequent
 
 import { Func, Param } from '@site/src/components/Script';
 
-- <Func>import alljson</Func> or <Func>from alljson import **FUNCTION**</Func> - to use
-  the Alljson API, you need to import the alljson module.
+- <Func>import alljson</Func> or <Func>from alljson import **FUNCTION**</Func> -
+  to use the Alljson API, you need to import the alljson module.
 - <Func>alljson.CLEAR_CONSOLE</Func>() - clear console
 - <Func>alljson.CONSOLE</Func>(<Param>text or object</Param>) - print text or
   object on console box
 - <Func>alljson.ERROR</Func>(<Param>error message</Param>) - print error message
   on console box
-- <Func>alljson.LEFT_EDITOR_TO_STRING</Func>() - return text from the left editor
+- <Func>alljson.LEFT_EDITOR_TO_STRING</Func>() - return text from the left
+  editor
 - <Func>alljson.RIGHT_EDITOR_TO_STRING</Func>() - return text from the right
   editor
-- <Func>alljson.STRING_TO_LEFT_EDITOR</Func>(<Param>text</Param>) - write text to
-  the left editor
-- <Func>alljson.STRING_TO_RIGHT_EDITOR</Func>(<Param>text</Param>) - write text to
-  the right editor
+- <Func>alljson.STRING_TO_LEFT_EDITOR</Func>(<Param>text</Param>) - write text
+  to the left editor
+- <Func>alljson.STRING_TO_RIGHT_EDITOR</Func>(<Param>text</Param>) - write text
+  to the right editor
 - <Func>alljson.SET_CURRENT_THEME</Func>(<Param>"light"|"dark"</Param>) - change
   current user interface theme
 - <Func>alljson.GET_CURRENT_THEME</Func>() - get current user interface theme

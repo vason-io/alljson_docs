@@ -1,6 +1,6 @@
 # Alljson guide
 
-Available at https://alljson.com/docs
+Available at https://docs.vason.com
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website
 generator.
